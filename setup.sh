@@ -4,9 +4,10 @@ echo "\
 email = \"your-email@domain.com\"\n\
 " > ~/.streamlit/credentials.toml
 echo "\
-echo "[theme]
-base="dark"
-font="serif"
+[theme]\n\
+base=\"dark\"\n\
+font=\"serif\"\n\
+echo "\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
