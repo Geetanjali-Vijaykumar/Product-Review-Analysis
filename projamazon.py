@@ -22,7 +22,7 @@ emotions_emoji_dict = {"Neutral":"😐","Positive":"🙂","Negative":"☹️"}
 
 def main():
     st.set_page_config(layout = "wide")
-    st.title("Welcome to Sentiment Analysis for the Product Reviews")
+    st.title("Welcome to Sentiment Analysis for the Product OnePlus Nord 2 Reviews")
     st.header("Classify if the review is Positive, Negative or Neutral!!!!")
     raw_text = st.text_area('Type Here:')
     submit_text = st.button("Predict")
